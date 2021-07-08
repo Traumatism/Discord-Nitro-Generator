@@ -2,7 +2,7 @@
 ### this project is still in-dev
 
 
-[![asciicast](https://asciinema.org/a/Ph6fHU6CRSGkpaf8Lb28vqRvq)](https://asciinema.org/a/Ph6fHU6CRSGkpaf8Lb28vqRvq)
+<script src="https://asciinema.org/a/Ph6fHU6CRSGkpaf8Lb28vqRvq" id="asciicast-Ph6fHU6CRSGkpaf8Lb28vqRvq" async></script>
 
 ## Features
 * SOCKS4 proxy support

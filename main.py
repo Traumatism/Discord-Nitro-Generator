@@ -46,23 +46,23 @@ async def main():
         checker = Checker() # initialize the checker class
 
         # load the futures
-        tasks = []
+        futures = []
 
         for code in codes:
 
             proxy = proxies.__next__() # choose the proxy
 
-            tasks.append(asyncio.create_task(
+            futures.append(asyncio.create_task(
                 checker.check(code, proxy)
             ))
 
         Logging.info(
-            f'executing {len(tasks)} tasks asynchronously...'
+            f'executing {len(futures)} tasks asynchronously...'
         )
 
         # execute the futures
         await asyncio.gather(
-            *tasks
+            *futures
         )
 
 asyncio.run(

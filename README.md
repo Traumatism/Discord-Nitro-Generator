@@ -3,7 +3,7 @@
 
 ## Features
 * SOCKS4 proxy support
-* Asyncronous
+* Asynchronous
 * Auto sleep if rate limited
 
 ## Todo

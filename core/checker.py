@@ -17,8 +17,8 @@ class Checker:
         url = self.url % code
         type, proxy_host, proxy_port = proxy
 
-        async with aiohttp.ClientSession(connector=ProxyConnector.from_url('socks%d://%s:%s' % (type, proxy_host, proxy_port))) as session:
-            try:
+        try:
+            async with aiohttp.ClientSession(connector=ProxyConnector.from_url('socks%d://%s:%s' % (type, proxy_host, proxy_port))) as session:
                 async with session.get(url=url) as response:
                     json_data = await response.json()
 
@@ -58,7 +58,7 @@ class Checker:
                             f'unknown message (code: {code}): {message}'
                         )
 
-            except Exception:
-                pass
+        except Exception:
+            pass
 
         return (code, None)

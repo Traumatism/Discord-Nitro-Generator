@@ -1,6 +1,7 @@
 # Discord Nitro Generator
 ### this project is still in-dev
 
+## Demo (click the image)
 <a href="https://asciinema.org/a/Ph6fHU6CRSGkpaf8Lb28vqRvq"><img src="https://asciinema.org/a/Ph6fHU6CRSGkpaf8Lb28vqRvq.png" width="836"/></a>
 
 ## Features

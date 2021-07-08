@@ -1,8 +1,7 @@
 # Discord Nitro Generator
 ### this project is still in-dev
 
-
-<script src="https://asciinema.org/a/Ph6fHU6CRSGkpaf8Lb28vqRvq" id="asciicast-Ph6fHU6CRSGkpaf8Lb28vqRvq" async></script>
+<a href="https://asciinema.org/a/Ph6fHU6CRSGkpaf8Lb28vqRvq"><img src="https://asciinema.org/a/Ph6fHU6CRSGkpaf8Lb28vqRvq.png" width="836"/></a>
 
 ## Features
 * SOCKS4 proxy support
